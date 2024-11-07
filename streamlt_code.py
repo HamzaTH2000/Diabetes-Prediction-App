@@ -90,6 +90,6 @@ if predictbutton:  # if predicted button is pressed
     else:
         st.warning("This person is at risk of diabetes. ⚠️", icon="⚠️")
 else:
-    st.info("Fill in the details and press the button to predict.", icon="ℹ️")  # Prompt message
+    st.info("Fill in the details and press the button to predict.")  # Prompt message
 
 # streamlit run streamlt_code.py
